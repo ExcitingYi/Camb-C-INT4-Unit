@@ -1,0 +1,557 @@
+ 
+****************************************
+Report : power
+        -hier
+        -analysis_effort low
+Design : r29_int4
+Version: T-2022.03-SP2
+Date   : Tue Dec 17 14:52:11 2024
+****************************************
+
+
+Library(s) Used:
+
+    gscl45nm (File: /home/jjt/innovus_file/CODE/FreePDK45/osu_soc/lib/files/gscl45nm.db)
+
+
+Operating Conditions: typical   Library: gscl45nm
+Wire Load Model Mode: top
+
+
+Global Operating Voltage = 1.1  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1nW
+
+
+--------------------------------------------------------------------------------
+                                       Switch   Int      Leak     Total
+Hierarchy                              Power    Power    Power    Power    %
+--------------------------------------------------------------------------------
+r29_int4                               9.39e-02    0.166 7.86e+04    0.338 100.0
+  counter_inst_28__u_counter_asyn (counter_asyn_REG_SIZE16_0)
+                                       1.19e-03 9.64e-04 2.36e+03 4.52e-03   1.3
+    reg_gen_15__u_dreg (dreg_0)        2.45e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_14__u_dreg (dreg_1)        3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_13__u_dreg (dreg_2)        3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_12__u_dreg (dreg_3)        3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_11__u_dreg (dreg_4)        3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_10__u_dreg (dreg_5)        3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_9__u_dreg (dreg_6)         3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_8__u_dreg (dreg_7)         3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_7__u_dreg (dreg_8)         3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_6__u_dreg (dreg_9)         3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_5__u_dreg (dreg_10)        3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_4__u_dreg (dreg_11)        3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_3__u_dreg (dreg_12)        3.03e-06 5.16e-05  131.850 1.87e-04   0.1
+    reg_gen_2__u_dreg (dreg_13)        2.69e-06 4.62e-05  131.850 1.81e-04   0.1
+    reg_gen_1__u_dreg (dreg_14)        1.01e-06 4.92e-05  131.850 1.82e-04   0.1
+    reg_gen_0__u_dreg (dreg_15)        6.55e-06 1.12e-04  131.850 2.51e-04   0.1
+  counter_inst_27__u_counter_asyn (counter_asyn_REG_SIZE16_1)
+                                       1.20e-03 1.17e-03 2.36e+03 4.73e-03   1.4
+    reg_gen_15__u_dreg (dreg_16)       2.45e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_14__u_dreg (dreg_17)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_13__u_dreg (dreg_18)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_12__u_dreg (dreg_19)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_11__u_dreg (dreg_20)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_10__u_dreg (dreg_21)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_9__u_dreg (dreg_22)        3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_8__u_dreg (dreg_23)        3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_7__u_dreg (dreg_24)        3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_6__u_dreg (dreg_25)        3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_5__u_dreg (dreg_26)        3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_4__u_dreg (dreg_27)        3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_3__u_dreg (dreg_28)        3.03e-06 5.16e-05  131.850 1.87e-04   0.1
+    reg_gen_2__u_dreg (dreg_29)        2.69e-06 4.84e-05  131.850 1.83e-04   0.1
+    reg_gen_1__u_dreg (dreg_30)        2.02e-06 6.99e-05  131.850 2.04e-04   0.1
+    reg_gen_0__u_dreg (dreg_31)        1.37e-05 2.87e-04  131.850 4.32e-04   0.1
+  counter_inst_26__u_counter_asyn (counter_asyn_REG_SIZE16_2)
+                                       1.21e-03 1.10e-03 2.36e+03 4.67e-03   1.4
+    reg_gen_15__u_dreg (dreg_32)       2.45e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_14__u_dreg (dreg_33)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_13__u_dreg (dreg_34)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_12__u_dreg (dreg_35)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_11__u_dreg (dreg_36)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_10__u_dreg (dreg_37)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_9__u_dreg (dreg_38)        3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_8__u_dreg (dreg_39)        3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_7__u_dreg (dreg_40)        3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_6__u_dreg (dreg_41)        3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_5__u_dreg (dreg_42)        3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_4__u_dreg (dreg_43)        3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_3__u_dreg (dreg_44)        3.03e-06 5.20e-05  131.850 1.87e-04   0.1
+    reg_gen_2__u_dreg (dreg_45)        2.86e-06 5.00e-05  131.850 1.85e-04   0.1
+    reg_gen_1__u_dreg (dreg_46)        2.35e-06 8.40e-05  131.850 2.18e-04   0.1
+    reg_gen_0__u_dreg (dreg_47)        1.94e-05 1.97e-04  131.850 3.48e-04   0.1
+  counter_inst_25__u_counter_asyn (counter_asyn_REG_SIZE16_3)
+                                       1.22e-03 1.31e-03 2.36e+03 4.89e-03   1.4
+    reg_gen_15__u_dreg (dreg_48)       2.45e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_14__u_dreg (dreg_49)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_13__u_dreg (dreg_50)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_12__u_dreg (dreg_51)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_11__u_dreg (dreg_52)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_10__u_dreg (dreg_53)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_9__u_dreg (dreg_54)        3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_8__u_dreg (dreg_55)        3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_7__u_dreg (dreg_56)        3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_6__u_dreg (dreg_57)        3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_5__u_dreg (dreg_58)        3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_4__u_dreg (dreg_59)        3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_3__u_dreg (dreg_60)        3.03e-06 5.16e-05  131.850 1.87e-04   0.1
+    reg_gen_2__u_dreg (dreg_61)        2.69e-06 5.31e-05  131.850 1.88e-04   0.1
+    reg_gen_1__u_dreg (dreg_62)        4.20e-06 1.10e-04  131.850 2.46e-04   0.1
+    reg_gen_0__u_dreg (dreg_63)        2.69e-05 3.78e-04  131.850 5.37e-04   0.2
+  counter_inst_24__u_counter_asyn (counter_asyn_REG_SIZE16_4)
+                                       1.23e-03 1.22e-03 2.36e+03 4.81e-03   1.4
+    reg_gen_15__u_dreg (dreg_64)       2.45e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_14__u_dreg (dreg_65)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_13__u_dreg (dreg_66)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_12__u_dreg (dreg_67)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_11__u_dreg (dreg_68)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_10__u_dreg (dreg_69)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_9__u_dreg (dreg_70)        3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_8__u_dreg (dreg_71)        3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_7__u_dreg (dreg_72)        3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_6__u_dreg (dreg_73)        3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_5__u_dreg (dreg_74)        3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_4__u_dreg (dreg_75)        3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_3__u_dreg (dreg_76)        3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_2__u_dreg (dreg_77)        3.03e-06 5.74e-05  131.850 1.92e-04   0.1
+    reg_gen_1__u_dreg (dreg_78)        5.38e-06 1.20e-04  131.850 2.58e-04   0.1
+    reg_gen_0__u_dreg (dreg_79)        2.89e-05 2.67e-04  131.850 4.28e-04   0.1
+  counter_inst_23__u_counter_asyn (counter_asyn_REG_SIZE16_5)
+                                       1.24e-03 1.45e-03 2.36e+03 5.05e-03   1.5
+    reg_gen_15__u_dreg (dreg_80)       2.45e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_14__u_dreg (dreg_81)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_13__u_dreg (dreg_82)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_12__u_dreg (dreg_83)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_11__u_dreg (dreg_84)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_10__u_dreg (dreg_85)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_9__u_dreg (dreg_86)        3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_8__u_dreg (dreg_87)        3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_7__u_dreg (dreg_88)        3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_6__u_dreg (dreg_89)        3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_5__u_dreg (dreg_90)        3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_4__u_dreg (dreg_91)        3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_3__u_dreg (dreg_92)        3.03e-06 5.20e-05  131.850 1.87e-04   0.1
+    reg_gen_2__u_dreg (dreg_93)        2.86e-06 6.08e-05  131.850 1.96e-04   0.1
+    reg_gen_1__u_dreg (dreg_94)        7.40e-06 1.52e-04  131.850 2.92e-04   0.1
+    reg_gen_0__u_dreg (dreg_95)        3.88e-05 4.53e-04  131.850 6.23e-04   0.2
+  counter_inst_22__u_counter_asyn (counter_asyn_REG_SIZE16_6)
+                                       1.25e-03 1.35e-03 2.36e+03 4.96e-03   1.5
+    reg_gen_15__u_dreg (dreg_96)       2.45e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_14__u_dreg (dreg_97)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_13__u_dreg (dreg_98)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_12__u_dreg (dreg_99)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_11__u_dreg (dreg_100)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_10__u_dreg (dreg_101)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_9__u_dreg (dreg_102)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_8__u_dreg (dreg_103)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_7__u_dreg (dreg_104)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_6__u_dreg (dreg_105)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_5__u_dreg (dreg_106)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_4__u_dreg (dreg_107)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_3__u_dreg (dreg_108)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_2__u_dreg (dreg_109)       3.03e-06 6.25e-05  131.850 1.97e-04   0.1
+    reg_gen_1__u_dreg (dreg_110)       7.73e-06 1.63e-04  131.850 3.02e-04   0.1
+    reg_gen_0__u_dreg (dreg_111)       4.27e-05 3.49e-04  131.850 5.24e-04   0.2
+  counter_inst_21__u_counter_asyn (counter_asyn_REG_SIZE16_7)
+                                       1.26e-03 1.44e-03 2.38e+03 5.09e-03   1.5
+    reg_gen_15__u_dreg (dreg_112)      2.45e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_14__u_dreg (dreg_113)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_13__u_dreg (dreg_114)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_12__u_dreg (dreg_115)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_11__u_dreg (dreg_116)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_10__u_dreg (dreg_117)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_9__u_dreg (dreg_118)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_8__u_dreg (dreg_119)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_7__u_dreg (dreg_120)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_6__u_dreg (dreg_121)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_5__u_dreg (dreg_122)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_4__u_dreg (dreg_123)       3.03e-06 5.27e-05  131.850 1.88e-04   0.1
+    reg_gen_3__u_dreg (dreg_124)       3.19e-06 5.47e-05  131.850 1.90e-04   0.1
+    reg_gen_2__u_dreg (dreg_125)       3.70e-06 7.02e-05  131.850 2.06e-04   0.1
+    reg_gen_1__u_dreg (dreg_126)       9.66e-06 1.76e-04  131.850 3.17e-04   0.1
+    reg_gen_0__u_dreg (dreg_127)       5.43e-05 4.13e-04  151.603 6.19e-04   0.2
+  counter_inst_20__u_counter_asyn (counter_asyn_REG_SIZE16_8)
+                                       1.26e-03 1.42e-03 2.36e+03 5.03e-03   1.5
+    reg_gen_15__u_dreg (dreg_128)      2.45e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_14__u_dreg (dreg_129)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_13__u_dreg (dreg_130)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_12__u_dreg (dreg_131)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_11__u_dreg (dreg_132)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_10__u_dreg (dreg_133)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_9__u_dreg (dreg_134)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_8__u_dreg (dreg_135)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_7__u_dreg (dreg_136)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_6__u_dreg (dreg_137)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_5__u_dreg (dreg_138)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_4__u_dreg (dreg_139)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_3__u_dreg (dreg_140)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_2__u_dreg (dreg_141)       3.03e-06 6.71e-05  131.850 2.02e-04   0.1
+    reg_gen_1__u_dreg (dreg_142)       9.92e-06 1.82e-04  131.850 3.24e-04   0.1
+    reg_gen_0__u_dreg (dreg_143)       4.63e-05 3.81e-04  131.850 5.59e-04   0.2
+  counter_inst_19__u_counter_asyn (counter_asyn_REG_SIZE16_9)
+                                       1.27e-03 1.55e-03 2.36e+03 5.18e-03   1.5
+    reg_gen_15__u_dreg (dreg_144)      2.45e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_14__u_dreg (dreg_145)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_13__u_dreg (dreg_146)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_12__u_dreg (dreg_147)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_11__u_dreg (dreg_148)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_10__u_dreg (dreg_149)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_9__u_dreg (dreg_150)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_8__u_dreg (dreg_151)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_7__u_dreg (dreg_152)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_6__u_dreg (dreg_153)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_5__u_dreg (dreg_154)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_4__u_dreg (dreg_155)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_3__u_dreg (dreg_156)       3.03e-06 5.38e-05  131.850 1.89e-04   0.1
+    reg_gen_2__u_dreg (dreg_157)       3.70e-06 7.43e-05  131.850 2.10e-04   0.1
+    reg_gen_1__u_dreg (dreg_158)       1.16e-05 2.16e-04  131.850 3.60e-04   0.1
+    reg_gen_0__u_dreg (dreg_159)       5.82e-05 4.58e-04  131.850 6.48e-04   0.2
+  counter_inst_18__u_counter_asyn (counter_asyn_REG_SIZE16_10)
+                                       1.26e-03 1.47e-03 2.36e+03 5.09e-03   1.5
+    reg_gen_15__u_dreg (dreg_160)      2.45e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_14__u_dreg (dreg_161)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_13__u_dreg (dreg_162)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_12__u_dreg (dreg_163)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_11__u_dreg (dreg_164)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_10__u_dreg (dreg_165)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_9__u_dreg (dreg_166)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_8__u_dreg (dreg_167)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_7__u_dreg (dreg_168)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_6__u_dreg (dreg_169)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_5__u_dreg (dreg_170)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_4__u_dreg (dreg_171)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_3__u_dreg (dreg_172)       3.03e-06 5.31e-05  131.850 1.88e-04   0.1
+    reg_gen_2__u_dreg (dreg_173)       3.36e-06 7.00e-05  131.850 2.05e-04   0.1
+    reg_gen_1__u_dreg (dreg_174)       1.04e-05 1.98e-04  131.850 3.40e-04   0.1
+    reg_gen_0__u_dreg (dreg_175)       5.24e-05 4.14e-04  131.850 5.98e-04   0.2
+  counter_inst_17__u_counter_asyn (counter_asyn_REG_SIZE16_11)
+                                       1.28e-03 1.61e-03 2.36e+03 5.25e-03   1.6
+    reg_gen_15__u_dreg (dreg_176)      2.45e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_14__u_dreg (dreg_177)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_13__u_dreg (dreg_178)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_12__u_dreg (dreg_179)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_11__u_dreg (dreg_180)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_10__u_dreg (dreg_181)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_9__u_dreg (dreg_182)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_8__u_dreg (dreg_183)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_7__u_dreg (dreg_184)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_6__u_dreg (dreg_185)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_5__u_dreg (dreg_186)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_4__u_dreg (dreg_187)       3.03e-06 5.27e-05  131.850 1.88e-04   0.1
+    reg_gen_3__u_dreg (dreg_188)       3.19e-06 5.36e-05  131.850 1.89e-04   0.1
+    reg_gen_2__u_dreg (dreg_189)       3.19e-06 7.80e-05  131.850 2.13e-04   0.1
+    reg_gen_1__u_dreg (dreg_190)       1.45e-05 2.43e-04  131.850 3.89e-04   0.1
+    reg_gen_0__u_dreg (dreg_191)       6.32e-05 4.90e-04  131.850 6.85e-04   0.2
+  counter_inst_16__u_counter_asyn (counter_asyn_REG_SIZE16_12)
+                                       1.29e-03 1.64e-03 2.36e+03 5.29e-03   1.6
+    reg_gen_15__u_dreg (dreg_192)      2.45e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_14__u_dreg (dreg_193)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_13__u_dreg (dreg_194)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_12__u_dreg (dreg_195)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_11__u_dreg (dreg_196)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_10__u_dreg (dreg_197)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_9__u_dreg (dreg_198)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_8__u_dreg (dreg_199)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_7__u_dreg (dreg_200)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_6__u_dreg (dreg_201)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_5__u_dreg (dreg_202)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_4__u_dreg (dreg_203)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_3__u_dreg (dreg_204)       3.03e-06 5.45e-05  131.850 1.89e-04   0.1
+    reg_gen_2__u_dreg (dreg_205)       4.03e-06 8.39e-05  131.850 2.20e-04   0.1
+    reg_gen_1__u_dreg (dreg_206)       1.52e-05 2.50e-04  131.850 3.97e-04   0.1
+    reg_gen_0__u_dreg (dreg_207)       6.48e-05 5.10e-04  131.850 7.06e-04   0.2
+  counter_inst_15__u_counter_asyn (counter_asyn_REG_SIZE16_13)
+                                       1.29e-03 1.68e-03 2.36e+03 5.33e-03   1.6
+    reg_gen_15__u_dreg (dreg_208)      2.45e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_14__u_dreg (dreg_209)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_13__u_dreg (dreg_210)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_12__u_dreg (dreg_211)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_11__u_dreg (dreg_212)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_10__u_dreg (dreg_213)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_9__u_dreg (dreg_214)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_8__u_dreg (dreg_215)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_7__u_dreg (dreg_216)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_6__u_dreg (dreg_217)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_5__u_dreg (dreg_218)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_4__u_dreg (dreg_219)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_3__u_dreg (dreg_220)       3.03e-06 5.56e-05  131.850 1.90e-04   0.1
+    reg_gen_2__u_dreg (dreg_221)       4.54e-06 9.14e-05  131.850 2.28e-04   0.1
+    reg_gen_1__u_dreg (dreg_222)       1.75e-05 2.65e-04  131.850 4.15e-04   0.1
+    reg_gen_0__u_dreg (dreg_223)       6.65e-05 5.17e-04  131.850 7.16e-04   0.2
+  counter_inst_14__u_counter_asyn (counter_asyn_REG_SIZE16_14)
+                                       1.19e-03 9.03e-04 2.38e+03 4.47e-03   1.3
+    reg_gen_15__u_dreg (dreg_224)      2.45e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_14__u_dreg (dreg_225)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_13__u_dreg (dreg_226)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_12__u_dreg (dreg_227)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_11__u_dreg (dreg_228)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_10__u_dreg (dreg_229)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_9__u_dreg (dreg_230)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_8__u_dreg (dreg_231)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_7__u_dreg (dreg_232)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_6__u_dreg (dreg_233)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_5__u_dreg (dreg_234)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_4__u_dreg (dreg_235)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_3__u_dreg (dreg_236)       3.03e-06 5.16e-05  131.850 1.87e-04   0.1
+    reg_gen_2__u_dreg (dreg_237)       2.69e-06 4.44e-05  131.850 1.79e-04   0.1
+    reg_gen_1__u_dreg (dreg_238)       1.68e-07 4.00e-05  131.850 1.72e-04   0.1
+    reg_gen_0__u_dreg (dreg_239)       5.26e-06 6.60e-05  151.603 2.23e-04   0.1
+  counter_inst_13__u_counter_asyn (counter_asyn_REG_SIZE16_15)
+                                       1.19e-03 9.17e-04 2.38e+03 4.49e-03   1.3
+    reg_gen_15__u_dreg (dreg_240)      2.45e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_14__u_dreg (dreg_241)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_13__u_dreg (dreg_242)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_12__u_dreg (dreg_243)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_11__u_dreg (dreg_244)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_10__u_dreg (dreg_245)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_9__u_dreg (dreg_246)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_8__u_dreg (dreg_247)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_7__u_dreg (dreg_248)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_6__u_dreg (dreg_249)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_5__u_dreg (dreg_250)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_4__u_dreg (dreg_251)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_3__u_dreg (dreg_252)       3.03e-06 5.16e-05  131.850 1.87e-04   0.1
+    reg_gen_2__u_dreg (dreg_253)       2.69e-06 4.53e-05  131.850 1.80e-04   0.1
+    reg_gen_1__u_dreg (dreg_254)       5.88e-07 4.37e-05  131.850 1.76e-04   0.1
+    reg_gen_0__u_dreg (dreg_255)       6.06e-06 7.14e-05  151.603 2.29e-04   0.1
+  counter_inst_12__u_counter_asyn (counter_asyn_REG_SIZE16_16)
+                                       1.20e-03 1.01e-03 2.36e+03 4.57e-03   1.4
+    reg_gen_15__u_dreg (dreg_256)      2.45e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_14__u_dreg (dreg_257)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_13__u_dreg (dreg_258)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_12__u_dreg (dreg_259)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_11__u_dreg (dreg_260)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_10__u_dreg (dreg_261)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_9__u_dreg (dreg_262)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_8__u_dreg (dreg_263)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_7__u_dreg (dreg_264)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_6__u_dreg (dreg_265)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_5__u_dreg (dreg_266)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_4__u_dreg (dreg_267)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_3__u_dreg (dreg_268)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_2__u_dreg (dreg_269)       3.03e-06 4.91e-05  131.850 1.84e-04   0.1
+    reg_gen_1__u_dreg (dreg_270)       1.51e-06 6.20e-05  131.850 1.95e-04   0.1
+    reg_gen_0__u_dreg (dreg_271)       1.13e-05 1.36e-04  131.850 2.79e-04   0.1
+  counter_inst_11__u_counter_asyn (counter_asyn_REG_SIZE16_17)
+                                       1.21e-03 1.11e-03 2.36e+03 4.69e-03   1.4
+    reg_gen_15__u_dreg (dreg_272)      2.45e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_14__u_dreg (dreg_273)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_13__u_dreg (dreg_274)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_12__u_dreg (dreg_275)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_11__u_dreg (dreg_276)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_10__u_dreg (dreg_277)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_9__u_dreg (dreg_278)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_8__u_dreg (dreg_279)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_7__u_dreg (dreg_280)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_6__u_dreg (dreg_281)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_5__u_dreg (dreg_282)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_4__u_dreg (dreg_283)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_3__u_dreg (dreg_284)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_2__u_dreg (dreg_285)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_1__u_dreg (dreg_286)       3.03e-06 8.86e-05  131.850 2.23e-04   0.1
+    reg_gen_0__u_dreg (dreg_287)       1.99e-05 2.04e-04  131.850 3.56e-04   0.1
+  counter_inst_10__u_counter_asyn (counter_asyn_REG_SIZE16_18)
+                                       1.22e-03 1.12e-03 2.36e+03 4.70e-03   1.4
+    reg_gen_15__u_dreg (dreg_288)      2.45e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_14__u_dreg (dreg_289)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_13__u_dreg (dreg_290)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_12__u_dreg (dreg_291)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_11__u_dreg (dreg_292)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_10__u_dreg (dreg_293)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_9__u_dreg (dreg_294)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_8__u_dreg (dreg_295)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_7__u_dreg (dreg_296)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_6__u_dreg (dreg_297)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_5__u_dreg (dreg_298)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_4__u_dreg (dreg_299)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_3__u_dreg (dreg_300)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_2__u_dreg (dreg_301)       3.03e-06 5.20e-05  131.850 1.87e-04   0.1
+    reg_gen_1__u_dreg (dreg_302)       2.86e-06 9.19e-05  131.850 2.27e-04   0.1
+    reg_gen_0__u_dreg (dreg_303)       2.18e-05 2.11e-04  131.850 3.64e-04   0.1
+  counter_inst_9__u_counter_asyn (counter_asyn_REG_SIZE16_19)
+                                       1.23e-03 1.18e-03 2.36e+03 4.77e-03   1.4
+    reg_gen_15__u_dreg (dreg_304)      2.45e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_14__u_dreg (dreg_305)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_13__u_dreg (dreg_306)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_12__u_dreg (dreg_307)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_11__u_dreg (dreg_308)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_10__u_dreg (dreg_309)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_9__u_dreg (dreg_310)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_8__u_dreg (dreg_311)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_7__u_dreg (dreg_312)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_6__u_dreg (dreg_313)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_5__u_dreg (dreg_314)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_4__u_dreg (dreg_315)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_3__u_dreg (dreg_316)       3.03e-06 5.27e-05  131.850 1.88e-04   0.1
+    reg_gen_2__u_dreg (dreg_317)       3.19e-06 5.61e-05  131.850 1.91e-04   0.1
+    reg_gen_1__u_dreg (dreg_318)       4.37e-06 1.14e-04  131.850 2.50e-04   0.1
+    reg_gen_0__u_dreg (dreg_319)       2.82e-05 2.44e-04  131.850 4.04e-04   0.1
+  counter_inst_8__u_counter_asyn (counter_asyn_REG_SIZE16_20)
+                                       1.23e-03 1.27e-03 2.36e+03 4.86e-03   1.4
+    reg_gen_15__u_dreg (dreg_320)      2.45e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_14__u_dreg (dreg_321)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_13__u_dreg (dreg_322)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_12__u_dreg (dreg_323)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_11__u_dreg (dreg_324)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_10__u_dreg (dreg_325)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_9__u_dreg (dreg_326)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_8__u_dreg (dreg_327)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_7__u_dreg (dreg_328)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_6__u_dreg (dreg_329)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_5__u_dreg (dreg_330)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_4__u_dreg (dreg_331)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_3__u_dreg (dreg_332)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_2__u_dreg (dreg_333)       3.03e-06 5.87e-05  131.850 1.94e-04   0.1
+    reg_gen_1__u_dreg (dreg_334)       5.97e-06 1.32e-04  131.850 2.69e-04   0.1
+    reg_gen_0__u_dreg (dreg_335)       3.27e-05 3.04e-04  131.850 4.68e-04   0.1
+  counter_inst_7__u_counter_asyn (counter_asyn_REG_SIZE16_21)
+                                       1.23e-03 1.28e-03 2.36e+03 4.88e-03   1.4
+    reg_gen_15__u_dreg (dreg_336)      2.45e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_14__u_dreg (dreg_337)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_13__u_dreg (dreg_338)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_12__u_dreg (dreg_339)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_11__u_dreg (dreg_340)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_10__u_dreg (dreg_341)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_9__u_dreg (dreg_342)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_8__u_dreg (dreg_343)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_7__u_dreg (dreg_344)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_6__u_dreg (dreg_345)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_5__u_dreg (dreg_346)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_4__u_dreg (dreg_347)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_3__u_dreg (dreg_348)       3.03e-06 5.34e-05  131.850 1.88e-04   0.1
+    reg_gen_2__u_dreg (dreg_349)       3.53e-06 6.37e-05  131.850 1.99e-04   0.1
+    reg_gen_1__u_dreg (dreg_350)       7.06e-06 1.40e-04  131.850 2.79e-04   0.1
+    reg_gen_0__u_dreg (dreg_351)       3.37e-05 3.08e-04  131.850 4.73e-04   0.1
+  counter_inst_6__u_counter_asyn (counter_asyn_REG_SIZE16_22)
+                                       1.25e-03 1.67e-03 2.36e+03 5.28e-03   1.6
+    reg_gen_15__u_dreg (dreg_352)      2.45e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_14__u_dreg (dreg_353)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_13__u_dreg (dreg_354)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_12__u_dreg (dreg_355)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_11__u_dreg (dreg_356)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_10__u_dreg (dreg_357)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_9__u_dreg (dreg_358)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_8__u_dreg (dreg_359)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_7__u_dreg (dreg_360)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_6__u_dreg (dreg_361)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_5__u_dreg (dreg_362)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_4__u_dreg (dreg_363)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_3__u_dreg (dreg_364)       3.03e-06 5.16e-05  131.850 1.87e-04   0.1
+    reg_gen_2__u_dreg (dreg_365)       2.69e-06 6.27e-05  131.850 1.97e-04   0.1
+    reg_gen_1__u_dreg (dreg_366)       8.66e-06 1.67e-04  131.850 3.07e-04   0.1
+    reg_gen_0__u_dreg (dreg_367)       4.24e-05 6.66e-04  131.850 8.40e-04   0.2
+  counter_inst_5__u_counter_asyn (counter_asyn_REG_SIZE16_23)
+                                       1.25e-03 1.43e-03 2.36e+03 5.04e-03   1.5
+    reg_gen_15__u_dreg (dreg_368)      2.45e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_14__u_dreg (dreg_369)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_13__u_dreg (dreg_370)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_12__u_dreg (dreg_371)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_11__u_dreg (dreg_372)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_10__u_dreg (dreg_373)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_9__u_dreg (dreg_374)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_8__u_dreg (dreg_375)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_7__u_dreg (dreg_376)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_6__u_dreg (dreg_377)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_5__u_dreg (dreg_378)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_4__u_dreg (dreg_379)       3.03e-06 5.27e-05  131.850 1.88e-04   0.1
+    reg_gen_3__u_dreg (dreg_380)       3.19e-06 5.32e-05  131.850 1.88e-04   0.1
+    reg_gen_2__u_dreg (dreg_381)       3.03e-06 6.61e-05  131.850 2.01e-04   0.1
+    reg_gen_1__u_dreg (dreg_382)       9.41e-06 1.79e-04  131.850 3.20e-04   0.1
+    reg_gen_0__u_dreg (dreg_383)       4.62e-05 4.04e-04  131.850 5.82e-04   0.2
+  counter_inst_4__u_counter_asyn (counter_asyn_REG_SIZE16_24)
+                                       1.27e-03 1.71e-03 2.36e+03 5.35e-03   1.6
+    reg_gen_15__u_dreg (dreg_384)      2.45e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_14__u_dreg (dreg_385)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_13__u_dreg (dreg_386)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_12__u_dreg (dreg_387)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_11__u_dreg (dreg_388)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_10__u_dreg (dreg_389)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_9__u_dreg (dreg_390)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_8__u_dreg (dreg_391)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_7__u_dreg (dreg_392)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_6__u_dreg (dreg_393)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_5__u_dreg (dreg_394)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_4__u_dreg (dreg_395)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_3__u_dreg (dreg_396)       3.03e-06 5.34e-05  131.850 1.88e-04   0.1
+    reg_gen_2__u_dreg (dreg_397)       3.53e-06 7.25e-05  131.850 2.08e-04   0.1
+    reg_gen_1__u_dreg (dreg_398)       1.12e-05 2.11e-04  131.850 3.54e-04   0.1
+    reg_gen_0__u_dreg (dreg_399)       5.69e-05 6.33e-04  131.850 8.22e-04   0.2
+  counter_inst_3__u_counter_asyn (counter_asyn_REG_SIZE16_25)
+                                       1.26e-03 1.47e-03 2.36e+03 5.10e-03   1.5
+    reg_gen_15__u_dreg (dreg_400)      2.45e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_14__u_dreg (dreg_401)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_13__u_dreg (dreg_402)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_12__u_dreg (dreg_403)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_11__u_dreg (dreg_404)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_10__u_dreg (dreg_405)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_9__u_dreg (dreg_406)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_8__u_dreg (dreg_407)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_7__u_dreg (dreg_408)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_6__u_dreg (dreg_409)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_5__u_dreg (dreg_410)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_4__u_dreg (dreg_411)       3.03e-06 5.27e-05  131.850 1.88e-04   0.1
+    reg_gen_3__u_dreg (dreg_412)       3.19e-06 5.43e-05  131.850 1.89e-04   0.1
+    reg_gen_2__u_dreg (dreg_413)       3.53e-06 7.49e-05  131.850 2.10e-04   0.1
+    reg_gen_1__u_dreg (dreg_414)       1.23e-05 2.02e-04  131.850 3.46e-04   0.1
+    reg_gen_0__u_dreg (dreg_415)       4.97e-05 4.07e-04  131.850 5.89e-04   0.2
+  counter_inst_2__u_counter_asyn (counter_asyn_REG_SIZE16_26)
+                                       1.28e-03 1.61e-03 2.36e+03 5.25e-03   1.6
+    reg_gen_15__u_dreg (dreg_416)      2.45e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_14__u_dreg (dreg_417)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_13__u_dreg (dreg_418)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_12__u_dreg (dreg_419)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_11__u_dreg (dreg_420)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_10__u_dreg (dreg_421)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_9__u_dreg (dreg_422)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_8__u_dreg (dreg_423)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_7__u_dreg (dreg_424)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_6__u_dreg (dreg_425)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_5__u_dreg (dreg_426)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_4__u_dreg (dreg_427)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_3__u_dreg (dreg_428)       3.03e-06 5.38e-05  131.850 1.89e-04   0.1
+    reg_gen_2__u_dreg (dreg_429)       3.70e-06 7.52e-05  131.850 2.11e-04   0.1
+    reg_gen_1__u_dreg (dreg_430)       1.20e-05 2.24e-04  131.850 3.68e-04   0.1
+    reg_gen_0__u_dreg (dreg_431)       6.07e-05 5.15e-04  131.850 7.08e-04   0.2
+  counter_inst_1__u_counter_asyn (counter_asyn_REG_SIZE16_27)
+                                       1.29e-03 1.67e-03 2.36e+03 5.32e-03   1.6
+    reg_gen_15__u_dreg (dreg_432)      2.45e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_14__u_dreg (dreg_433)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_13__u_dreg (dreg_434)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_12__u_dreg (dreg_435)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_11__u_dreg (dreg_436)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_10__u_dreg (dreg_437)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_9__u_dreg (dreg_438)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_8__u_dreg (dreg_439)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_7__u_dreg (dreg_440)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_6__u_dreg (dreg_441)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_5__u_dreg (dreg_442)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_4__u_dreg (dreg_443)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_3__u_dreg (dreg_444)       3.03e-06 5.52e-05  131.850 1.90e-04   0.1
+    reg_gen_2__u_dreg (dreg_445)       4.37e-06 9.05e-05  131.850 2.27e-04   0.1
+    reg_gen_1__u_dreg (dreg_446)       1.75e-05 2.65e-04  131.850 4.14e-04   0.1
+    reg_gen_0__u_dreg (dreg_447)       6.61e-05 5.14e-04  131.850 7.12e-04   0.2
+  counter_inst_0__u_counter_asyn (counter_asyn_REG_SIZE16_28)
+                                       1.31e-03 1.93e-03 2.36e+03 5.60e-03   1.7
+    reg_gen_15__u_dreg (dreg_448)      2.45e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_14__u_dreg (dreg_449)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_13__u_dreg (dreg_450)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_12__u_dreg (dreg_451)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_11__u_dreg (dreg_452)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_10__u_dreg (dreg_453)      3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_9__u_dreg (dreg_454)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_8__u_dreg (dreg_455)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_7__u_dreg (dreg_456)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_6__u_dreg (dreg_457)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_5__u_dreg (dreg_458)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_4__u_dreg (dreg_459)       3.03e-06 5.23e-05  131.850 1.87e-04   0.1
+    reg_gen_3__u_dreg (dreg_460)       3.03e-06 5.49e-05  131.850 1.90e-04   0.1
+    reg_gen_2__u_dreg (dreg_461)       4.20e-06 9.54e-05  131.850 2.31e-04   0.1
+    reg_gen_1__u_dreg (dreg_462)       2.02e-05 3.00e-04  131.850 4.52e-04   0.1
+    reg_gen_0__u_dreg (dreg_463)       7.60e-05 7.27e-04  131.850 9.34e-04   0.3
+1

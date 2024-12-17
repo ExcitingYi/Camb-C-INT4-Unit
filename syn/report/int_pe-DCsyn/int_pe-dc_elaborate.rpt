@@ -1,0 +1,34 @@
+Warning: Detected use of obsolete/unsupported feature.  The following
+	will not be available in a future release of the application:
+	elaborate -update. Use plain elaborate instead (CMD-100)
+Loading db file '/home/jjt/install/synopsys/dc/syn/T-2022.03-SP2/libraries/syn/gtech.db'
+Loading db file '/home/jjt/install/synopsys/dc/syn/T-2022.03-SP2/libraries/syn/standard.sldb'
+  Loading link library 'gscl45nm'
+  Loading link library 'gtech'
+Running PRESTO HDLC
+Warning:  /home/jjt/innovus_file/open_source/new_dc/rtl/int_pe/int_pe.v:44: Concatenations cannot have unsized numbers; assuming 32 bits. (ELAB-332)
+Warning:  /home/jjt/innovus_file/open_source/new_dc/rtl/int_pe/int_pe.v:46: signed to unsigned assignment occurs. (VER-318)
+Warning:  /home/jjt/innovus_file/open_source/new_dc/rtl/int_pe/int_pe.v:49: signed to unsigned assignment occurs. (VER-318)
+
+Inferred memory devices in process
+	in routine int_pe line 51 in file
+		'/home/jjt/innovus_file/open_source/new_dc/rtl/int_pe/int_pe.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|   top_in_reg_reg    | Flip-flop |   4   |  Y  | N  | Y  | N  | N  | N  | N  |
+|   left_in_reg_reg   | Flip-flop |   4   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine int_pe line 65 in file
+		'/home/jjt/innovus_file/open_source/new_dc/rtl/int_pe/int_pe.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+| accumulator_reg_reg | Flip-flop |  24   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully. (int_pe)
+Elaborated 1 design.
+Current design is now 'int_pe'.
+1

@@ -1,0 +1,66 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : int_pe
+Version: T-2022.03-SP2
+Date   : Tue Dec 17 18:51:51 2024
+****************************************
+
+Operating Conditions: typical   Library: gscl45nm
+Wire Load Model Mode: top
+
+  Startpoint: left_in_reg_reg_2_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: accumulator_reg_reg_23_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  left_in_reg_reg_2_/CLK (DFFSR)           0.00       0.00 r
+  left_in_reg_reg_2_/Q (DFFSR)             0.11       0.11 r
+  U182/Y (BUFX2)                           0.03       0.14 r
+  U83/Y (INVX1)                            0.03       0.17 f
+  U216/Y (OR2X2)                           0.05       0.22 f
+  U217/Y (INVX1)                           0.01       0.22 r
+  U355/YC (HAX1)                           0.06       0.28 r
+  U354/YC (FAX1)                           0.07       0.36 r
+  U357/YC (FAX1)                           0.06       0.42 r
+  U228/Y (OR2X1)                           0.05       0.47 r
+  U227/Y (INVX1)                           0.02       0.50 f
+  U151/Y (OR2X1)                           0.04       0.54 f
+  U296/Y (INVX1)                           0.00       0.55 r
+  U92/Y (AND2X1)                           0.04       0.59 r
+  U118/Y (INVX1)                           0.02       0.61 f
+  U427/Y (OAI21X1)                         0.06       0.67 r
+  U429/Y (AOI21X1)                         0.03       0.70 f
+  U177/Y (BUFX2)                           0.04       0.74 f
+  U430/Y (OAI21X1)                         0.06       0.79 r
+  U449/Y (AOI21X1)                         0.03       0.82 f
+  U284/Y (BUFX2)                           0.03       0.86 f
+  U450/Y (INVX1)                           0.01       0.86 r
+  U453/Y (XOR2X1)                          0.03       0.90 r
+  U176/Y (MUX2X1)                          0.03       0.92 f
+  U454/Y (INVX1)                           0.00       0.93 r
+  accumulator_reg_reg_23_/D (DFFSR)        0.00       0.93 r
+  data arrival time                                   0.93
+
+  clock clk (rise edge)                    1.00       1.00
+  clock network delay (ideal)              0.00       1.00
+  accumulator_reg_reg_23_/CLK (DFFSR)      0.00       1.00 r
+  library setup time                      -0.07       0.93
+  data required time                                  0.93
+  -----------------------------------------------------------
+  data required time                                  0.93
+  data arrival time                                  -0.93
+  -----------------------------------------------------------
+  slack (MET)                                         0.00
+
+
+1

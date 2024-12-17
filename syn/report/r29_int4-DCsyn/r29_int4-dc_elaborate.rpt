@@ -1,0 +1,54 @@
+Warning: Detected use of obsolete/unsupported feature.  The following
+	will not be available in a future release of the application:
+	elaborate -update. Use plain elaborate instead (CMD-100)
+Loading db file '/home/jjt/install/synopsys/dc/syn/T-2022.03-SP2/libraries/syn/gtech.db'
+Loading db file '/home/jjt/install/synopsys/dc/syn/T-2022.03-SP2/libraries/syn/standard.sldb'
+  Loading link library 'gscl45nm'
+  Loading link library 'gtech'
+Running PRESTO HDLC
+Warning:  /home/jjt/innovus_file/open_source/new_dc/rtl/r29_int4/r29_int4.v:57: signed to unsigned assignment occurs. (VER-318)
+Warning:  /home/jjt/innovus_file/open_source/new_dc/rtl/r29_int4/r29_int4.v:58: signed to unsigned assignment occurs. (VER-318)
+
+Statistics for case statements in always block at line 60 in file
+	'/home/jjt/innovus_file/open_source/new_dc/rtl/r29_int4/r29_int4.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            61            |    auto/auto     |
+===============================================
+
+Statistics for case statements in always block at line 81 in file
+	'/home/jjt/innovus_file/open_source/new_dc/rtl/r29_int4/r29_int4.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            82            |    auto/auto     |
+===============================================
+
+Inferred memory devices in process
+	in routine r29_int4 line 37 in file
+		'/home/jjt/innovus_file/open_source/new_dc/rtl/r29_int4/r29_int4.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|   top_in_reg_reg    | Flip-flop |   4   |  Y  | N  | Y  | N  | N  | N  | N  |
+|   left_in_reg_reg   | Flip-flop |   4   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully. (r29_int4)
+Elaborated 1 design.
+Current design is now 'r29_int4'.
+Information: Building the design 'counter_asyn' instantiated from design 'r29_int4' with
+	the parameters "REG_SIZE=16". (HDL-193)
+Presto compilation completed successfully. (counter_asyn_REG_SIZE16)
+Information: Building the design 'dreg'. (HDL-193)
+
+Inferred memory devices in process
+	in routine dreg line 17 in file
+		'/home/jjt/innovus_file/open_source/new_dc/rtl/r29_int4/dreg.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      d_reg_reg      | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully. (dreg)
+1

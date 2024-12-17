@@ -1,0 +1,30 @@
+ 
+****************************************
+Report : area
+Design : int_pe
+Version: T-2022.03-SP2
+Date   : Tue Dec 17 18:51:51 2024
+****************************************
+
+Library(s) Used:
+
+    gscl45nm (File: /home/jjt/innovus_file/CODE/FreePDK45/osu_soc/lib/files/gscl45nm.db)
+
+Number of ports:                           59
+Number of nets:                           486
+Number of cells:                          444
+Number of combinational cells:            411
+Number of sequential cells:                32
+Number of macros/black boxes:               0
+Number of buf/inv:                        191
+Number of references:                      14
+
+Combinational area:               1009.464280
+Buf/Inv area:                      316.777493
+Noncombinational area:             330.387207
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:                  1339.851487
+Total area:                 undefined
+1

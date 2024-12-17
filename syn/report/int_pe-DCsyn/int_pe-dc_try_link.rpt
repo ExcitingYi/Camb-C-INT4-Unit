@@ -1,0 +1,9 @@
+
+  Linking design 'int_pe'
+  Using the following designs and libraries:
+  --------------------------------------------------------------------------
+  int_pe                      /home/jjt/innovus_file/open_source/new_dc/int_pe.db
+  gscl45nm (library)          /home/jjt/innovus_file/CODE/FreePDK45/osu_soc/lib/files/gscl45nm.db
+  dw_foundation.sldb (library) /home/jjt/install/synopsys/dc/syn/T-2022.03-SP2/libraries/syn/dw_foundation.sldb
+
+1

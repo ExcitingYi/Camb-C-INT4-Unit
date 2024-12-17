@@ -1,0 +1,43 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : r29_int4
+Version: T-2022.03-SP2
+Date   : Tue Dec 17 14:52:11 2024
+****************************************
+
+Operating Conditions: typical   Library: gscl45nm
+Wire Load Model Mode: top
+
+  Startpoint: left_in_reg_reg_1_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: right_out[1]
+            (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  left_in_reg_reg_1_/CLK (DFFSR)           0.00       0.00 r
+  left_in_reg_reg_1_/Q (DFFSR)             0.11       0.11 f
+  U719/Y (BUFX2)                           0.04       0.16 f
+  right_out[1] (out)                       0.00       0.16 f
+  data arrival time                                   0.16
+
+  clock clk (rise edge)                    2.00       2.00
+  clock network delay (ideal)              0.00       2.00
+  output external delay                   -0.10       1.90
+  data required time                                  1.90
+  -----------------------------------------------------------
+  data required time                                  1.90
+  data arrival time                                  -0.16
+  -----------------------------------------------------------
+  slack (MET)                                         1.74
+
+
+1
