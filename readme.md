@@ -13,6 +13,7 @@ The complete project code will be released by the spring festival, if sucessful.
 If you have any questions, feel free to contact me at chen_yi@mail.ustc.edu.cn or push an issue.
 
 ## Paper:
+```bibtex
 @inproceedings{chen2024cambricon,
   title={Cambricon-C: Efficient 4-Bit Matrix Unit via Primitivization},
   author={Chen, Yi and Zhao, Yongwei and Hao, Yifan and Wen, Yuanbo and Dai, Yuntao and Li, Xiaqing and Liu, Yang and Zhang, Rui and Zou, Mo and Song, Xinkai and others},
@@ -21,3 +22,4 @@ If you have any questions, feel free to contact me at chen_yi@mail.ustc.edu.cn o
   year={2024},
   organization={IEEE}
 }
+```
