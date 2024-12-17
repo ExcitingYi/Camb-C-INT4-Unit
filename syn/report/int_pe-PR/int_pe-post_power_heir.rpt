@@ -1,0 +1,22 @@
+****************************************
+Report : Time Based Power
+	-hierarchy
+	-levels 2
+Design : int_pe
+Version: T-2022.03
+Date   : Tue Dec 17 19:58:01 2024
+****************************************
+
+
+
+                                      Int      Switch   Leak     Total
+Hierarchy                             Power    Power    Power    Power    %
+----------------------------------------------------------------------------------
+int_pe                                6.88e-04 2.71e-04 1.06e-05 9.70e-04 100.0
+
+
+                                      Peak     Peak            Glitch   X-tran
+Hierarchy                             Power    Time            Power    Power
+--------------------------------------------------------------------------------
+int_pe                                   0.247  18.750-18.751     0.000    0.000
+1
